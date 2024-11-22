@@ -1,0 +1,111 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #A7C6ED; /* Light blue background */
+    color: #000; /* Black text */
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #4A90E2; /* Blue header background */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px solid #F3A8D6; /* Soft pink border */
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive; /* Cursive font for header */
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+/* Navigation bar styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #F3A8D6; /* Soft pink button */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #fff;
+    color: #4A90E2;
+}
+
+/* Intro section */
+.intro {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.intro h2 {
+    font-family: 'Dancing Script', cursive; /* Cursive font for subheading */
+    font-size: 2.5rem;
+    color: #4A90E2;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+/* CTA Button */
+.cta-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #F3A8D6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #fff;
+    color: #4A90E2;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #4A90E2;
+    color: white;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
+}
